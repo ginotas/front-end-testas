@@ -30,9 +30,7 @@ width: 80%;
     
 }
 
-/* hover veikia, o focus ne, nzn kodel ;/ */
 .form-row > input:focus {
-
  border-left: solid #3853FE;   
  
 }
