@@ -1,7 +1,33 @@
-.form-row > button {
+
+button {
+    line-height: 30px;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: white;
+    color: #3853FE;
+    text-transform: capitalize;
+    border: #3853FE solid 1px;
+    border-radius: 2px;
+    font-size: 15px;
 
 }
 
-.form-row > button:hover {
-    
+.button1 {
+    background: #3853FE;
+    color: white;
+}
+
+.buttons > div {
+    display: inline-block;
+    padding: 8px;
+}
+
+
+/* nera uzduoti, siaip del saves padariau :) */
+button:hover {
+    box-shadow: 0px 7px 7px 0px #96A1F6;
+    cursor: pointer;
 }
