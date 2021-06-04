@@ -1,32 +1,58 @@
 .form {
-
+display: flex;
+flex-direction: column;
+gap: 10px;
 }
 
 .form-row {
-
+display: flex;
+flex-direction: column;
+width: 80%;
 }
 
 .form-row > label {
-
+    text-transform: capitalize;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 5px;
 }
 
 .form-row > input {
-
+    line-height: 20px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-top: none;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    
 }
 
+/* hover veikia, o focus ne, nzn kodel ;/ */
+.form-row > input:focus {
+
+ border-left: solid #3853FE;   
+ 
+}
+
+
 .remember-forgot {
+padding-top: 10px;
+padding-bottom: 40px;
+color: #A0A2B1;
 
 }
 
 .remember-forgot > a {
-
-}
-
-.form-row.flex-row {
-
+padding-left: 70px;
+color: #A0A2B1;
+text-decoration: none;
+text-transform: capitalize;
 }
 
 .form-row > input::placeholder {
-
+color: #3853FE;
 }
 

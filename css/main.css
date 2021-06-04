@@ -55,10 +55,15 @@ padding-top: 50px;
 
 footer > span { 
 color: #8A8B9D;
+font-size: 12px;
 }
 
 footer > a {
 color: #3853FE;
+padding-left: 25px;
+text-decoration: none;
+font-weight: bolder;
+font-size: 12px;
 }
 
 
