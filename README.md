@@ -10,7 +10,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at https://ginotas.github.io/front-end-testas/
 
-Design: [front end testas](https://cdn.discordapp.com/attachments/648536139677958156/648860801997996052/day1dr.png)
+Design: [front end testas](https://cdn.discordapp.com/attachments/850245533838868480/850246623883034644/login_screen.png)
 
 ## Project features
 
