@@ -16,44 +16,54 @@ main {
     width: 100%;
     position: absolute;
     top: 50%;
-    left: 30%;
-    transform: translate(-20%, -50%);
+    left: 50%;
+    transform: translate(-25%, -50%);
 }
 
 .left-side {
 display: inline-block;
 float: left;
-width: 40%;
+width: 20%;
 }
 
 header {
-
+color: #3A52F4;
+padding-top: 50px;
+padding-bottom: 80px;
+text-transform: capitalize;
+font-weight: bolder;
 }
 
 h1 {
+text-transform: capitalize;
 
 }
 
 h6 {
-
+padding-top: 10px;
+padding-bottom: 25px;
+color: #8A8B9D; 
+font-weight: lighter;
 }
 
 
 footer {
-
+display: inline-block;
+width: 100%;
+padding-top: 50px;
 }
 
-footer > span {
-
+footer > span { 
+color: #8A8B9D;
 }
 
 footer > a {
-
+color: #3853FE;
 }
 
 
 .right-side {
 display: inline-block;
 float: right;
-width: 60%;
+width: 80%;
 }
